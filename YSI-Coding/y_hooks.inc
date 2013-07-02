@@ -66,7 +66,7 @@ Changelog:
 #undef _inc_y_hooks
 
 // Multiple includes!
-#include "..\YSI-Internal\y_unique"
+#include "..\YSI_Internal\y_unique"
 
 //#if defined _INC_y_hooks
 //	#endinput
@@ -74,7 +74,7 @@ Changelog:
 // Everything except including "y_unique" is done once only.
 //#define _INC_y_hooks
 
-//#include "..\YSI-Internal\y_dohooks"
+//#include "..\YSI_Internal\y_dohooks"
 
 #if defined YSI_TESTS
 	#define _Y_HOOKS_STATIC
@@ -83,8 +83,8 @@ Changelog:
 #endif
 #include "y_hooks/impl"
 #if defined YSI_TESTS
-	#include "..\YSI-Core\y_testing"
+	#include "..\YSI_Core\y_testing"
 	#include "y_hooks/tests"
 	// Get some new IDs.
-	//#include "..\YSI-Internal\y_unique"
+	//#include "..\YSI_Internal\y_unique"
 #endif

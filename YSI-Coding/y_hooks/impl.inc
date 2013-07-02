@@ -71,11 +71,11 @@ Changelog:
 		First version
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Internal\y_unique"
-#include "..\YSI-Core\y_cell"
-#include "..\YSI-Core\y_utils"
-#include "..\YSI-Storage\y_amx"
-#include "..\YSI-Core\y_als"
+#include "..\YSI_Internal\y_unique"
+#include "..\YSI_Core\y_cell"
+#include "..\YSI_Core\y_utils"
+#include "..\YSI_Storage\y_amx"
+#include "..\YSI_Core\y_als"
 
 #include "..\amx\asm"
 //asm"
@@ -559,7 +559,7 @@ static stock const
 	YSI_gscOnPlayerClickPlayerTD   [32 char] = !"OnPlayerClickPlayerTextDraw",
 	YSI_gscOnPlayerEditAttachedObj [32 char] = !"OnPlayerEditAttachedObject",
 	YSI_gscOnPlayerCmdPerformed    [32 char] = !"OnPlayerCommandPerformed",
-
+	// Streamer plugin long callbacks.
 	YSI_gscOnPlayerEditDynObject  [32 char] = !"OnPlayerEditDynamicObject",
 	YSI_gscOnPlayerSelectDynObject[32 char] = !"OnPlayerSelectDynamicObject",
 	YSI_gscOnPlayerPickUpDynPickup[32 char] = !"OnPlayerPickUpDynamicPickup",

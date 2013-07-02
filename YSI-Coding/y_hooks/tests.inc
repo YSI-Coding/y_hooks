@@ -185,7 +185,7 @@ public MyFunc1(a, b)
 	g_y_hooksVar += a + b;
 }
 
-#include <YSI-Internal\y_unique>
+#include "..\YSI_Internal\y_unique"
 
 hook MyFunc1(a, b)
 {
@@ -193,7 +193,7 @@ hook MyFunc1(a, b)
 	g_y_hooksVar += a + b;
 }
 
-#include <YSI-Internal\y_unique>
+#include "..\YSI_Internal\y_unique"
 
 hook MyFunc1(a, b)
 {
@@ -201,7 +201,7 @@ hook MyFunc1(a, b)
 	g_y_hooksVar += a + b;
 }
 
-#include <YSI-Internal\y_unique>
+#include "..\YSI_Internal\y_unique"
 
 hook MyFunc1(a, b)
 {
@@ -209,7 +209,7 @@ hook MyFunc1(a, b)
 	g_y_hooksVar += a + b;
 }
 
-#include <YSI-Internal\y_unique>
+#include "..\YSI_Internal\y_unique"
 
 hook MyFunc1(a, b)
 {
@@ -217,7 +217,7 @@ hook MyFunc1(a, b)
 	g_y_hooksVar += a + b;
 }
 
-#include <YSI-Internal\y_unique>
+#include "..\YSI_Internal\y_unique"
 
 hook MyFunc1(a, b)
 {
