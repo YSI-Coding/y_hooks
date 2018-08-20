@@ -1,0 +1,9 @@
+{
+	"user": "YSI-Coding",
+	"repo": "y_hooks",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dependencies": [
+	]
+}
+
