@@ -1,3 +1,40 @@
+# y_hooks
+
+Provides language syntax and support for "hooking" functions.  Allowing you to intercept them, or use the same callback in multiple files at once.
+
+
+[![sampctl](https://shields.southcla.ws/badge/sampctl-y_hooks-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Coding/y_hooks)
+
+## Installation
+
+To install just this one library:
+
+```bash
+sampctl package install YSI-Coding/y_hooks
+```
+
+Include in your code and begin using the library:
+
+```pawn
+#include <YSI-Coding/y_hooks>
+```
+
+## Documentation
+
+* [Quick Start](YSI-Coding/y_hooks/quick-start.md) - One very simple example of getting started with this library.
+* [Features](YSI-Coding/y_hooks/features.md) - More features and examples.
+* [FAQs](YSI-Coding/y_hooks/faqs.md) - Frequently Asked Questions, including errors and solutions.
+* [API](YSI-Coding/y_hooks/api.md) - Full list of all functions and their meaning.
+* [Internal](YSI-Coding/y_hooks/internal.md) - Internal developer documentation for the system.
+
+## Testing
+
+To test, simply run the package:
+
+```bash
+sampctl package run
+```
+
 # YSI
 
 ## General Information
@@ -109,34 +146,4 @@ Libraries that have in-game visible effects.
 * [y_races](https://github.com/YSI-Visual/y_races/blob/dev/YSI-Visual/y_races.md)
 * [y_zonenames](https://github.com/YSI-Visual/y_zonenames/blob/dev/YSI-Visual/y_zonenames.md)
 * [y_zonepulse](https://github.com/YSI-Visual/y_zonepulse/blob/dev/YSI-Visual/y_zonepulse.md)
-
-# y_hooks
-
-[![sampctl](https://shields.southcla.ws/badge/sampctl-y_hooks-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Coding/y_hooks)
-
-## Installation
-
-To install just this one library:
-
-```bash
-sampctl package install YSI-Coding/y_hooks
-```
-
-Include in your code and begin using the library:
-
-```pawn
-#include <YSI-Coding/y_hooks>
-```
-
-## Usage
-
-[Click Here] (YSI-Coding/y_hooks.md)
-
-## Testing
-
-To test, simply run the package:
-
-```bash
-sampctl package run
-```
 
