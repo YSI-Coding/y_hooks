@@ -75,8 +75,8 @@ Optional plugins:
 	Me - sscanf2, fixes2, Whirlpool.
 */
 
-#include "..\..\YSI_Core\y_utils"
-#include "..\y_cgen\y_cgen"
+#include <YSI-Core\y_utils>
+#include <YSI-Internal\y_cgen>
 
 #if defined YSI_TESTS
 	#define _Y_HOOKS_STATIC
@@ -89,7 +89,7 @@ Optional plugins:
 
 #if defined YSI_TESTS
 	// Get a new unique ID for the test hooks.
-	#include "..\y_unique\y_unique_entry"
+	#include <YSI-Coding\y_unique\y_unique_entry>
 	#include "y_hooks_tests"
 #endif
 
