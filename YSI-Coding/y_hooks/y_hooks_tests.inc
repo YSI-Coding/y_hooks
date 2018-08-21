@@ -642,7 +642,7 @@ public y_hooks_MyFunc1(a, b)
 	g_y_hooksVar += a + b;
 }
 
-#include "..\y_unique\y_unique_entry"
+s#include <YSI-Coding\y_unique>
 
 HOOK__ y_hooks_MyFunc1(a, b)
 {
@@ -650,7 +650,7 @@ HOOK__ y_hooks_MyFunc1(a, b)
 	g_y_hooksVar += a + b;
 }
 
-#include "..\y_unique\y_unique_entry"
+#include <YSI-Coding\y_unique>
 
 HOOK__ y_hooks_MyFunc1(a, b)
 {
@@ -658,7 +658,7 @@ HOOK__ y_hooks_MyFunc1(a, b)
 	g_y_hooksVar += a + b;
 }
 
-#include "..\y_unique\y_unique_entry"
+#include <YSI-Coding\y_unique>
 
 HOOK__ y_hooks_MyFunc1(a, b)
 {
@@ -666,7 +666,7 @@ HOOK__ y_hooks_MyFunc1(a, b)
 	g_y_hooksVar += a + b;
 }
 
-#include "..\y_unique\y_unique_entry"
+#include <YSI-Coding\y_unique>
 
 HOOK__ y_hooks_MyFunc1(a, b)
 {
@@ -674,7 +674,7 @@ HOOK__ y_hooks_MyFunc1(a, b)
 	g_y_hooksVar += a + b;
 }
 
-#include "..\y_unique\y_unique_entry"
+#include <YSI-Coding\y_unique>
 
 HOOK__ y_hooks_MyFunc1(a, b)
 {
@@ -844,7 +844,7 @@ HOOK__ OnTestNumArgs2(a, b, c, f)
 	ASSERT_EQ(numargs(), 4);
 }
 
-#include "..\y_unique\y_unique_entry"
+#include <YSI-Coding\y_unique>
 
 HOOK__ OnTestNumArgs2(a, b, c, f)
 {
