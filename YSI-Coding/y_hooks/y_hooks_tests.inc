@@ -642,7 +642,7 @@ public y_hooks_MyFunc1(a, b)
 	g_y_hooksVar += a + b;
 }
 
-s#include <YSI-Coding\y_unique>
+#include <YSI-Coding\y_unique>
 
 HOOK__ y_hooks_MyFunc1(a, b)
 {
