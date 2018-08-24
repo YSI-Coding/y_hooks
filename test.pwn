@@ -1,3 +1,6 @@
+// Include the SA:MP natives.
+#include <a_samp>
+
 // Enable the YSI internal tests.
 #define YSI_TESTS
 
